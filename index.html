@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana Sewmini | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#project">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   <section id="home">
+    <div class="container">
+        <h1>HAY THERE! <br> I'M <span class="orange-text"> SANJANA SEWMINI</span></h1>
+        <p>A Computer Science student of the Institute of Software Engineering <br> at Galle, Sri Lanka</p>
+        
+         <div class="cv-download">
+                <a href="#contact" class="cv-btn" >
+                    <i class="fas fa-phone"></i> Contact Me
+                </a>
+            </div>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="profile-img">
+        <img src="assests/IMG_20251024_111446.jpg" alt="Profile">
+    </div>
+</section>
+
+<section id="about">
+    <div class="main-wrapper">
+        <div class="sidebar">
+            <h2 class="white-text">Why Hire Me?</h2>
+            <p class="description">I am a student studying Computer Science at the Institute of Software Engineering. I am very passionate about software development and Data Science.</p>
+            
+            <div class="tab-menu">
+                <button class="tab-btn" onclick="showTab(event, 'about-content')">About Me</button>
+                <button class="tab-btn" onclick="showTab(event, 'education-content')">Education</button>
+                <button class="tab-btn" onclick="showTab(event, 'skills-content')">Skills</button>
+            </div>
+
+            <div class="cv-download">
+                <a href="assets/CV.pdf" class="cv-btn" download>
+                    <i class="fas fa-download"></i> DOWNLOAD CV
+                </a>
+            </div>
+        </div>
+
+        <div class="display-area">
+            <div id="about-content" class="content-panel ">
+                <h2 class="orange-text">About Me</h2>
+                <div class="info-list">
+                    <div class="row"><span class="lbl">Name</span><span class="val">Sanjana Sewmini</span></div>
+                    <div class="row"><span class="lbl">Age</span><span class="val">22 years old</span></div>
+                    <div class="row"><span class="lbl">Address</span><span class="val">No 365/1, Mahakumbura watta, Ihala Vitiyala,Karagoda Uyangoda,Kamburupitya</span></div>
+                    <div class="row"><span class="lbl">School</span><span class="val">MR/President College</span></div>
+                    <div class="row"><span class="lbl">Status</span><span class="val">Unmarried</span></div>
+                    <div class="row"><span class="lbl">Email</span><span class="val">sewminibebarande@gmail.com</span></div>
+                </div>
+            </div>
+
+            <div id="education-content" class="content-panel ">
+                <h2 class="orange-text">Education</h2>
+
+               <div class="edu-box">
+                    <h3>Graduate Diploma in Software Engineering</h3>
+                    <span class="year">Present</span>
+                </div>
+
+                <div class="edu-box">
+                    <h3>Diploma in English</h3>
+                    <span class="year">2023</span>
+                </div>
+
+                <div class="edu-box">
+                    <h3>Diploma in IT</h3>
+                    <span class="year">2023</span>
+                </div>
+            </div>
+
+            <div id="skills-content" class="content-panel ">
+                <h2 class="orange-text">Skills</h2>
+
+                 <div class="skill-card">
+                    <h4 class="skill-title">Programming Languages :</h4>
+                    <div class="skill-items">
+                        <div class="item"><img src="assests/java icon.png" alt="Java"> <span>Java</span></div>
+                        <div class="item"><img src="assests/python icon.png" alt="Python"> <span>Python</span></div>
+                        <div class="item"><img src="assests/java script icon.png" alt="JS"> <span>Java Script</span></div>
+                    </div>
+            </div>
+
+            <div class="skill-card">
+                <h4 class="skill-title">Tools & Software</h4>
+                <p class="sub-title">Version control :</p>
+                <div class="skill-items">
+                    <div class="item"><img src="assests/git icon.png" alt="Git"> <span>git</span></div>
+                    <div class="item"><img src="assests/github icon.png" alt="GitHub"> <span>github</span></div>
+                </div>
+                <p class="sub-title">Design :</p>
+                <div class="skill-items">
+                    <div class="item"><img src="assests/figma icon.png" alt="Figma"><span>Figma</span></div>
+                </div>
+                <p class="sub-title">IDE :</p>
+                <div class="skill-items">
+                    <div class="item"><img src="assests/vs code icon.png" alt="VS"><span>VS Code</span></div>
+                    <div class="item"><img src="assests/intellij idea icon.png" alt="IJ"><span>Intellij idea</span></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h4 class="skill-title">Soft Skills :</h4>
+                <div class="skill-items">
+                    <div class="item"><img src="assests/teamwork icon.png" alt="Team"> <span>Teamwork</span></div>
+                    <div class="item"><img src="assests/problem solving icon.png" alt="Problem"> <span>Problem solving</span></div>
+                    <div class="item"><img src="assests/adaptability icon.png" alt="Adapt"> <span>Adaptability</span></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="experience">
+    <div class="container">
+        <h2 class="experience-title">Work <span class="orange-text">Experience</span></h2>
+        
+        <div class="experience-content">
+            <div class="exp-item">
+                <span class="star-icon">★</span>
+                <p>I am a Software Engineering student.</p>
+            </div>
+            
+            <div class="exp-image">
+                <img src="assests/se student.png" alt="Work Icon">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="project">
+
+        <div class="container">
+            <h2 class="main-title"><span class="orange-text">Assignments & Projects</span></h2>
+            
+            <div class="project-grid-wrapper">
+                
+                <div class="project-column">
+                    <h3 class="column-title">My <span class="orange-text">Assignments</span></h3>
+                    
+                    <div class="project-card">
+                        <img src="assests/terminalBaseStockmanagementSystem.png" alt="Stock Management System">
+                        <div class="card-content">
+                            <h4>Stock Management System-Terminal Base</h4>
+                            <p>A command line interface (CLI) software designed to enable users to efficiently manage inventory. It uses CRUD operations.</p>
+                           <a href="git link" target="_blank" class="btn-view">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-column">
+                    <h3 class="column-title">My <span class="orange-text">Projects</span></h3>
+                    
+                    <div class="project-card">
+                        <img src="assests/deliveryManagementSystem.png" alt="Delivery Management System">
+                        <div class="card-content">
+                            <h4>Delivery Management System</h4>
+                            <p>A system designed to streamline the order delivery process. Managing distributors and tracking delivery status are key.</p>
+                            <a href="github-link" target="_blank" class="btn-view">View Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assests/connect4game.png" alt="Connect 4 Game">
+                        <div class="card-content">
+                            <h4>Connect 4 Game</h4>
+                            <p>A strategic board game designed for two players. Complex logic and array-based algorithms are used for winning patterns.</p>
+                            <a href="github-link" target="_blank" class="btn-view">View Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assests/layeredArchitectureProject.png" alt="Layered Architecture">
+                        <div class="card-content">
+                            <h4>Layered Architecture Project</h4>
+                            <p>A system designed to streamline the order process using professional software architecture layers.</p>
+                            <a href="github-link" target="_blank" class="btn-view">View Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assests/orderManagementSystem.png" alt="Order Management">
+                        <div class="card-content">
+                            <h4>Order Management System</h4>
+                            <p>A complete management tool designed to take orders, issue invoices, and maintain customer information.</p>
+                            <a href="github-link" target="_blank" class="btn-view">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> </div>
+    </section>
+
+    <section id="gallery">
+    <div class="container">
+        <div class="gallery-header">
+            <h1 class="white-text">My <span class="orange-text">Creative Space</span></h1>
+            <div class="filter-buttons">
+                <a href="#" class="filter-btn active">All</a>
+                <a href="#" class="filter-btn">Personal</a>
+                <a href="#" class="filter-btn">Events & Volunteering</a>
+                <a href="#" class="filter-btn">Academic</a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="gallery-item personal">
+                <img src="assests/me.jpg" alt="Creative">
+                <p class="img-desc">Personal Moment</p>
+            </div>
+            <div class="gallery-item academic">
+                <img src="assests/my-2.jpg" alt="Creative">
+                <p class="img-desc">IJSE Projects</p>
+            </div>
+            <div class="gallery-item events">
+                <img src="assests/my-3.jpg" alt="Creative">
+                <p class="img-desc">Volunteering Event</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section id="contact">
+    <div class="contact-main-wrapper">
+        <div class="contact-info">
+            <h2 class="white-text">Let's <span class="white-text">Work</span> <br> Together</h2>
+            
+            <div class="info-item">
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <div>
+                    <p class="label">Email</p>
+                    <p class="value">sewminibebarande@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <div>
+                    <p class="label">Contact</p>
+                    <p class="value">0760005956</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form class="contact-form">
+                <h3 class="form-title">Contact me!</h3>
+                
+                <div class="input-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <input type="text" placeholder="Subject" class="full-width">
+                
+                <textarea placeholder="Message" class="full-width"></textarea>
+
+                <div class="btn-center">
+                    <button type="submit" class="send-btn">send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
